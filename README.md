@@ -11,11 +11,13 @@ Xcode templates for creating new files. Allows you to create a new file with pre
 
 * Copy desired .xctemplate to:
 
-        /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/Cocoa Touch/
-For example:
+        ~/Library/Developer/Xcode/Templates/File\ Templates/Cocoa\ Touch/
+
+If folder does not exist you can create it. For example:
 
         cd Xcode-templates/
-        sudo cp -r Objective-C\ AppDefines.xctemplate /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File\ Templates/Cocoa\ Touch/
+        mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/Cocoa\ Touch/
+        sudo cp -r Objective-C\ AppDefines.xctemplate ~/Library/Developer/Xcode/Templates/File\ Templates/Cocoa\ Touch/
 	
 * Restart Xcode
 	
