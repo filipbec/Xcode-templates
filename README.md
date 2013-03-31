@@ -2,7 +2,7 @@ Xcode-templates
 ===============
 
 # 1. Description:
-Xcode templates for creating new files. Allows you to create new file with predefined code.
+Xcode templates for creating new files. Allows you to create a new file with predefined code.
 
 # 2. Installation:
 * Clone this repository:
