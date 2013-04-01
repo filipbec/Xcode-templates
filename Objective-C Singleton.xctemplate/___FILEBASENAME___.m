@@ -10,6 +10,8 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+static ___FILEBASENAMEASIDENTIFIER___ *_instance;
+
 - (id)init {
     self = [super init];
     if (self) {
@@ -21,8 +23,6 @@
 #pragma mark - Singleton Methods
 
 + (___FILEBASENAMEASIDENTIFIER___*)sharedInstance {
-
-	static ___FILEBASENAMEASIDENTIFIER___ *_instance;
 	if(!_instance) {
 		static dispatch_once_t onceToken;
 		dispatch_once(&onceToken, ^{
